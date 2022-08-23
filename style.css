@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.first-heading{
+    text-align: center;
+    margin: 90px auto 0px auto; 
+    width: 80vw;
+    font-size: 37px;
+    letter-spacing: 3px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.border{
+    align-items: center;
+    width: 40%;
+    height: 35%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 3px 3px rgb(245, 243, 243);
+    /* box-shadow: 2px 2px 2px 2px; */
+}
+
+.underline{
+    height: 5px;
+    width: 82px;
+    margin: 5px auto 80px auto;
+    background-color:rgb(62, 136, 243);
+}
+
+.img{
+    margin-top: 30px;
+    width: 156px;
+    border-radius: 50%;
+    height: 160px;
+    box-shadow: 9px -2px rgb(65, 138, 241);
+    margin-bottom:40px;
+    position: relative;
+}
+
+.write-up{
+    text-align: center;
+    /* overflow-wrap:break-word; */
+    font-size: 15px;
+    /* line-break: 4; */
+    color:#839AA8;
+    margin-bottom: 5px;
+}
+
+.name{
+    letter-spacing: 4px;
+    font-size: 18px;
+    /* font: weight 550px; */
+    color: #2a2e30;
+}
+
+.work{
+    color: rgb(137, 201, 226);
+    text-transform:uppercase;
+    margin: 10px 0px 15px 0px;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.btn{
+    border: 2px solid rgb(137, 201, 226);
+    padding: 5px 14px;
+    border-radius: 10px;
+    box-shadow: 2px 1px rgb(137, 201, 226);
+    margin: 10px 0px;
+    color: rgb(137, 201, 226);
+    cursor: pointer;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+
+.btn:hover{
+    background-color:rgb(137, 201, 226);
+    color: #000 ;
+    opacity: 0.5;
+}
+
+.arrow, i{
+    padding: 5px 10px;
+    color: rgb(137, 201, 226);
+    font-weight:900;
+    cursor: pointer;
+}
+
+.arrow:hover{
+    color: rgb(62, 136, 243);
+}
+
+.image-container{
+    position: relative;
+}
+
+.quote-container{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(17 108 239);
+    position: absolute;
+    top: 29px;
+    opacity: 0.5;
+    
+}
+
+.quotes{ 
+ color: #fff; 
+ margin: 7px 0 0 2px;
+}
