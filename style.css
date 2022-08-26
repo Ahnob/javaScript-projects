@@ -47,6 +47,15 @@
     position: relative;
 }
 
+.carousel{
+    margin: auto;
+    width: 90%;
+}
+
+.slides{
+    display: flex;
+}
+
 .write-up{
     text-align: center;
     /* overflow-wrap:break-word; */
@@ -102,6 +111,7 @@
 
 .image-container{
     position: relative;
+    display: flex;
 }
 
 .quote-container{
