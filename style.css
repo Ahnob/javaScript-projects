@@ -7,10 +7,11 @@
 
 .first-heading{
     text-align: center;
-    margin: 90px auto 0px auto; 
-    width: 80vw;
-    font-size: 37px;
+    margin: 70px auto 0px auto; 
+    width: 75vw;
+    font-size: 40px;
     letter-spacing: 3px;
+    font-weight: bolder;
 }
 
 .container{
@@ -29,12 +30,11 @@
 
 .border{
     align-items: center;
-    width: 40%;
-    height: 35%;
+    width: 45%;
+    /* height: 35%; */
     margin: auto;
     border-radius: 10px;
     box-shadow: 0 0 3px 3px rgb(245, 243, 243);
-    /* box-shadow: 2px 2px 2px 2px; */
 }
 
 .underline{
@@ -46,9 +46,9 @@
 
 .img{
     margin-top: 30px;
-    width: 156px;
+    width: 150px;
     border-radius: 50%;
-    height: 160px;
+    height: 150px;
     box-shadow: 9px -2px rgb(65, 138, 241);
     margin-bottom:40px;
     position: relative;
@@ -56,7 +56,7 @@
 
 .carousel{
     margin: auto;
-    width: 90%;
+    width: 80%;
 }
 
 .slides{
@@ -65,9 +65,7 @@
 
 .write-up{
     text-align: center;
-    /* overflow-wrap:break-word; */
     font-size: 15px;
-    /* line-break: 4; */
     color:#839AA8;
     margin-bottom: 5px;
 }
@@ -92,7 +90,7 @@
     padding: 5px 14px;
     border-radius: 10px;
     box-shadow: 2px 1px rgb(137, 201, 226);
-    margin: 10px auto;
+    margin: 5px auto;
     color: rgb(137, 201, 226);
     cursor: pointer;
     margin-bottom: 30px;
@@ -133,13 +131,13 @@
     background-color: rgb(17 108 239);
     position: absolute;
     top: 29px;
-    opacity: 0.5;
     
 }
 
 .quotes{ 
  color: #fff; 
  margin: 7px 0 0 2px;
+
 }
 
 .hidden{
