@@ -1,29 +1,15 @@
-const slides = document.querySelectorAll(".slides");
-const carousel = document.querySelector(".carousel")
-const leftArrow = document.querySelector(".left-arrow");
-const rightArrow = document.querySelector(".right-arrow")
+const slides = document.querySelectorAll(".container");
+const leftArrow = document.querySelector(".prev-arrow");
+const rightArrow = document.querySelector(".next-arrow")
+console.log(slides)
 
-const slideNumber = slides.length;
-const currentSlide = 0;5
+//Add an event listener to all the right-arrow 
+//Apply the hidden class on ever other profile except the next one
+
+let currentProfile = 0;
+rightArrow.addEventListener("click", ()=>{
+    slides[1].classList.remove("hidden");
+    currentProfile++
+})
 
 
-//adding event listeners
-leftArrow.addEventListener("click", () =>{
-currentSlide++;
-if(currentSlide > slideNumber -1 ){
-    currentSlide = 0;
-}
-
-updateCarousel()
-});
-
-leftArrow.addEventListener("click", () =>{
-    currentSlide--
-    if(currentSlide < 0){
-        currentSlide = slideNumber-1;
-    }
-});
-
-function updateCarousel(){
-    carousel.style.transform
-}
